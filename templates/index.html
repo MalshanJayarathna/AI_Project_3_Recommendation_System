@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AI Course Recommendation System by DecodeLabs — Discover the best AI and tech courses tailored to your interests using TF-IDF and Cosine Similarity." />
+  <title>AI Course Recommender | DecodeLabs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+  <!-- ── Animated Background Orbs ── -->
+  <div class="bg-orbs" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="orb orb-4"></div>
+  </div>
+
+  <!-- ── Floating Particles ── -->
+  <div class="particles" aria-hidden="true" id="particles"></div>
+
+  <!-- ══════════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════════ -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" id="nav-logo-link">
+        <div class="logo-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 2L2 7l10 5 10-5-10-5z" fill="currentColor" opacity="0.9"/>
+            <path d="M2 17l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span class="logo-text">DecodeLabs</span>
+        <span class="logo-badge">AI</span>
+      </a>
+      <div class="nav-links">
+        <a href="#hero" class="nav-link" id="nav-home">Home</a>
+        <a href="#how-it-works" class="nav-link" id="nav-how">How It Works</a>
+        <a href="#courses-section" class="nav-link" id="nav-courses">Courses</a>
+        <a href="#recommender" class="nav-link nav-cta" id="nav-try">Try Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════
+       HERO SECTION
+  ══════════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        DecodeLabs · AI Project 3
+      </div>
+      <h1 class="hero-title">
+        Discover Your Perfect
+        <span class="gradient-text">AI Course</span>
+        With Smart Recommendations
+      </h1>
+      <p class="hero-subtitle">
+        Powered by <strong>TF-IDF Vectorization</strong> &amp; <strong>Cosine Similarity</strong> — enter your interests and our AI engine instantly finds the most relevant courses tailored just for you.
+      </p>
+      <div class="hero-actions">
+        <a href="#recommender" class="btn btn-primary" id="hero-cta">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+            <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          Get Recommendations
+        </a>
+        <a href="#how-it-works" class="btn btn-ghost" id="hero-learn">Learn How It Works</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num">20+</span>
+          <span class="stat-label">AI Courses</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">TF-IDF</span>
+          <span class="stat-label">Vectorization</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">Top 5</span>
+          <span class="stat-label">Recommendations</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="visual-card vc-1">
+        <div class="vc-icon">🤖</div>
+        <div class="vc-text">Machine Learning</div>
+        <div class="vc-score">Score: 0.94</div>
+      </div>
+      <div class="visual-card vc-2">
+        <div class="vc-icon">🧠</div>
+        <div class="vc-text">Deep Learning</div>
+        <div class="vc-score">Score: 0.87</div>
+      </div>
+      <div class="visual-card vc-3">
+        <div class="vc-icon">🔥</div>
+        <div class="vc-text">Neural Networks</div>
+        <div class="vc-score">Score: 0.79</div>
+      </div>
+      <div class="visual-ring"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       HOW IT WORKS
+  ══════════════════════════════════════════════ -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="section-header">
+      <span class="section-tag">Under the Hood</span>
+      <h2 class="section-title">How the AI Engine Works</h2>
+      <p class="section-subtitle">Three intelligent steps transform your interests into perfect course matches</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step-card" id="step-1">
+        <div class="step-number">01</div>
+        <div class="step-icon">📝</div>
+        <h3>You Enter Interests</h3>
+        <p>Type any keywords — topics, skills, or concepts you want to learn. For example: <em>"python machine learning automation"</em></p>
+      </div>
+      <div class="step-arrow" aria-hidden="true">→</div>
+      <div class="step-card" id="step-2">
+        <div class="step-number">02</div>
+        <div class="step-icon">📊</div>
+        <h3>TF-IDF Vectorization</h3>
+        <p>Your input and all course descriptions are converted into numerical vectors — weighted by word importance across the entire corpus.</p>
+      </div>
+      <div class="step-arrow" aria-hidden="true">→</div>
+      <div class="step-card" id="step-3">
+        <div class="step-number">03</div>
+        <div class="step-icon">🎯</div>
+        <h3>Cosine Similarity Ranking</h3>
+        <p>The angle between your vector and each course vector is measured. Courses closest in topic space are ranked and recommended.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       RECOMMENDER SECTION
+  ══════════════════════════════════════════════ -->
+  <section class="recommender-section" id="recommender">
+    <div class="section-header">
+      <span class="section-tag">AI-Powered</span>
+      <h2 class="section-title">Find Your Perfect Course</h2>
+      <p class="section-subtitle">Describe what you want to learn and let the AI do the rest</p>
+    </div>
+
+    <!-- Search Box -->
+    <div class="search-container">
+      <div class="search-box" id="search-box">
+        <div class="search-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+            <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <input
+          type="text"
+          id="interests-input"
+          class="search-input"
+          placeholder="e.g. python machine learning automation..."
+          autocomplete="off"
+          aria-label="Enter your learning interests"
+        />
+        <button class="search-btn" id="search-btn" aria-label="Get recommendations">
+          <span class="btn-text">Recommend</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Quick suggestion chips -->
+      <div class="suggestion-chips" id="suggestion-chips">
+        <span class="chip-label">Try:</span>
+        <button class="chip" id="chip-1" data-query="python machine learning automation">🐍 Python & ML</button>
+        <button class="chip" id="chip-2" data-query="deep learning neural networks">🧠 Deep Learning</button>
+        <button class="chip" id="chip-3" data-query="natural language processing chatbot">💬 NLP & Chatbots</button>
+        <button class="chip" id="chip-4" data-query="data science statistics">📊 Data Science</button>
+        <button class="chip" id="chip-5" data-query="computer vision image classification">👁️ Computer Vision</button>
+        <button class="chip" id="chip-6" data-query="generative ai large language models">✨ Generative AI</button>
+      </div>
+    </div>
+
+    <!-- Loading State -->
+    <div class="loading-state" id="loading-state" hidden>
+      <div class="loader-ring"></div>
+      <p>Analysing your interests with TF-IDF…</p>
+    </div>
+
+    <!-- Error State -->
+    <div class="error-state" id="error-state" hidden>
+      <div class="error-icon">⚠️</div>
+      <p id="error-message">Something went wrong. Please try again.</p>
+    </div>
+
+    <!-- Results Section -->
+    <div class="results-section" id="results-section" hidden>
+      <div class="results-header">
+        <h3 class="results-title">
+          Top 5 Recommendations
+          <span class="results-query" id="results-query"></span>
+        </h3>
+        <div class="results-meta" id="results-meta"></div>
+      </div>
+      <div class="results-grid" id="results-grid"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       ALL COURSES BROWSER
+  ══════════════════════════════════════════════ -->
+  <section class="courses-section" id="courses-section">
+    <div class="section-header">
+      <span class="section-tag">Browse All</span>
+      <h2 class="section-title">Course Catalogue</h2>
+      <p class="section-subtitle">Explore all 20 AI & tech courses in the dataset</p>
+    </div>
+    <div class="catalogue-grid" id="catalogue-grid">
+      <div class="catalogue-loading">Loading courses…</div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <div class="logo-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 2L2 7l10 5 10-5-10-5z" fill="currentColor" opacity="0.9"/>
+            <path d="M2 17l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span>DecodeLabs</span>
+      </div>
+      <p class="footer-text">AI Project 3 · Content-Based Recommendation System · Built with Python, Flask &amp; scikit-learn</p>
+      <p class="footer-copy">© 2024 DecodeLabs. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

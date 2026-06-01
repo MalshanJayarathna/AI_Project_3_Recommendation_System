@@ -1,0 +1,65 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Flask session / instance data
+instance/
+.webassets-cache
+flask_session/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Environment variables (NEVER commit secrets)
+.env
+.env.local
+.env.production
+*.env
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*~
+
+# Operating system artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.orig
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# pytest / testing
+.pytest_cache/
+.coverage
+htmlcov/

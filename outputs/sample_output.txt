@@ -1,0 +1,61 @@
+DecodeLabs AI Project 3 — AI Course Recommendation System
+======================================================================
+User Input   : data science statistics
+======================================================================
+
+======================================================================
+       TOP 5 AI COURSE RECOMMENDATIONS — DecodeLabs
+======================================================================
+
+  Rank #1
+  Title             : Python for Data Science
+  Category          : Programming
+  Similarity Score  : 0.3698
+  Description       :
+    Master Python programming for data science including NumPy
+    pandas matplotlib data wrangling and exploratory data
+    analysis for real-world datasets
+  --------------------------------------------------------------------
+
+  Rank #2
+  Title             : Feature Engineering and Data Preprocessing
+  Category          : Machine Learning
+  Similarity Score  : 0.0797
+  Description       :
+    Learn advanced feature engineering techniques including
+    handling missing data encoding categorical variables feature
+    scaling selection dimensionality reduction PCA and data
+    pipeline construction
+  --------------------------------------------------------------------
+
+  Rank #3
+  Title             : Time Series Analysis and Forecasting
+  Category          : Data Science
+  Similarity Score  : 0.0442
+  Description       :
+    Learn time series decomposition ARIMA LSTM-based forecasting
+    and anomaly detection for financial stock market weather and
+    IoT sensor data prediction
+  --------------------------------------------------------------------
+
+  Rank #4
+  Title             : Big Data Analytics with Spark
+  Category          : Big Data
+  Similarity Score  : 0.0436
+  Description       :
+    Learn to process and analyze massive datasets using Apache
+    Spark PySpark distributed computing MapReduce and
+    cloud-based big data solutions for enterprise analytics
+  --------------------------------------------------------------------
+
+  Rank #5
+  Title             : Data Structures and Algorithms
+  Category          : Programming
+  Similarity Score  : 0.0414
+  Description       :
+    Master fundamental data structures like arrays linked lists
+    trees graphs and algorithms including sorting searching
+    dynamic programming and graph traversal for competitive
+    programming
+  --------------------------------------------------------------------
+======================================================================

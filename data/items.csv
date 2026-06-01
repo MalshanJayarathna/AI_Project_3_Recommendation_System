@@ -1,0 +1,21 @@
+title,category,description
+Machine Learning Fundamentals,Machine Learning,Learn the core concepts of machine learning including supervised learning unsupervised learning regression classification and model evaluation using Python and scikit-learn
+Deep Learning with Neural Networks,Deep Learning,Explore artificial neural networks deep learning architectures backpropagation convolutional networks and recurrent networks for image and text processing
+Python for Data Science,Programming,Master Python programming for data science including NumPy pandas matplotlib data wrangling and exploratory data analysis for real-world datasets
+Natural Language Processing,NLP,Understand natural language processing techniques including tokenization stemming TF-IDF word embeddings sentiment analysis and text classification using NLTK and spaCy
+Computer Vision with OpenCV,Computer Vision,Learn image processing object detection face recognition and video analysis using OpenCV and deep learning models for real-time computer vision applications
+Reinforcement Learning,Reinforcement Learning,Study reinforcement learning algorithms including Q-learning policy gradients actor-critic methods and train intelligent agents to solve complex decision-making problems
+AI Ethics and Responsible AI,AI Ethics,Examine the ethical implications of artificial intelligence including bias fairness transparency accountability and best practices for building responsible and trustworthy AI systems
+Data Structures and Algorithms,Programming,Master fundamental data structures like arrays linked lists trees graphs and algorithms including sorting searching dynamic programming and graph traversal for competitive programming
+Big Data Analytics with Spark,Big Data,Learn to process and analyze massive datasets using Apache Spark PySpark distributed computing MapReduce and cloud-based big data solutions for enterprise analytics
+Neural Networks and TensorFlow,Deep Learning,Build and train neural networks using TensorFlow and Keras including model optimization transfer learning hyperparameter tuning and deployment of deep learning models
+AI for Automation and Robotics,Automation,Discover how artificial intelligence powers automation robotic process automation autonomous systems intelligent agents and robotic control systems in manufacturing and logistics
+SQL and Database Management,Databases,Learn structured query language database design normalization joins aggregations stored procedures and database optimization for managing relational databases efficiently
+Cloud Computing and AI Services,Cloud Computing,Explore cloud platforms like AWS Google Cloud and Azure for deploying AI machine learning models serverless computing containerization Docker and Kubernetes
+Statistics for Machine Learning,Statistics,Master statistical concepts essential for machine learning including probability distributions hypothesis testing Bayesian inference regression analysis and statistical modeling
+Time Series Analysis and Forecasting,Data Science,Learn time series decomposition ARIMA LSTM-based forecasting and anomaly detection for financial stock market weather and IoT sensor data prediction
+Generative AI and Large Language Models,Generative AI,Understand generative AI technologies including GPT large language models prompt engineering fine-tuning and building applications with ChatGPT and Hugging Face transformers
+Feature Engineering and Data Preprocessing,Machine Learning,Learn advanced feature engineering techniques including handling missing data encoding categorical variables feature scaling selection dimensionality reduction PCA and data pipeline construction
+Convolutional Neural Networks for Image Classification,Deep Learning,Deep dive into CNN architectures like ResNet VGG MobileNet for image classification object detection segmentation and transfer learning on custom image datasets
+AI Project Management and MLOps,MLOps,Learn to manage end-to-end machine learning projects including data versioning experiment tracking model monitoring CI/CD pipelines and deploying models using MLflow and Docker
+Chatbot Development with AI,NLP,Build intelligent conversational chatbots using NLP intent recognition named entity recognition dialogue management Rasa framework and integrating AI chatbots with web applications
