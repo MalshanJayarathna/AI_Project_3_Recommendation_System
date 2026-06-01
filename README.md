@@ -359,6 +359,22 @@ It is:
 - ✅ **Beginner-friendly** — every line is commented and documented
 - ✅ **GitHub-ready** — clean structure, proper `.gitignore`, pinned dependencies
 
+ ## 🎥 Project Demo
+
+A complete demonstration video of the AI Recommendation System is included in the `demo/` folder.
+
+Demo Video:
+`AI_Recommendation_System_Demo.mp4`
+
+The demo showcases:
+
+* User interest input
+* TF-IDF vectorization
+* Cosine similarity matching
+* Top-N recommendation generation
+* Web application interaction
+
+
 ---
 
 ## 👨‍💻 Author
