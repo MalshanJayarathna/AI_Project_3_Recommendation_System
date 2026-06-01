@@ -1,6 +1,6 @@
 DecodeLabs AI Project 3 — AI Course Recommendation System
 ======================================================================
-User Input   : data science statistics
+User Input   : python machine learning automation
 ======================================================================
 
 ======================================================================
@@ -8,54 +8,56 @@ User Input   : data science statistics
 ======================================================================
 
   Rank #1
-  Title             : Python for Data Science
-  Category          : Programming
-  Similarity Score  : 0.3698
+  Title             : Machine Learning Fundamentals
+  Category          : Machine Learning
+  Similarity Score  : 0.2748
   Description       :
-    Master Python programming for data science including NumPy
-    pandas matplotlib data wrangling and exploratory data
-    analysis for real-world datasets
+    Learn the core concepts of machine learning including
+    supervised learning unsupervised learning regression
+    classification and model evaluation using Python and
+    scikit-learn
   --------------------------------------------------------------------
 
   Rank #2
-  Title             : Feature Engineering and Data Preprocessing
-  Category          : Machine Learning
-  Similarity Score  : 0.0797
+  Title             : AI for Automation and Robotics
+  Category          : Automation
+  Similarity Score  : 0.1888
   Description       :
-    Learn advanced feature engineering techniques including
-    handling missing data encoding categorical variables feature
-    scaling selection dimensionality reduction PCA and data
-    pipeline construction
+    Discover how artificial intelligence powers automation
+    robotic process automation autonomous systems intelligent
+    agents and robotic control systems in manufacturing and
+    logistics
   --------------------------------------------------------------------
 
   Rank #3
-  Title             : Time Series Analysis and Forecasting
-  Category          : Data Science
-  Similarity Score  : 0.0442
+  Title             : Statistics for Machine Learning
+  Category          : Statistics
+  Similarity Score  : 0.1353
   Description       :
-    Learn time series decomposition ARIMA LSTM-based forecasting
-    and anomaly detection for financial stock market weather and
-    IoT sensor data prediction
+    Master statistical concepts essential for machine learning
+    including probability distributions hypothesis testing
+    Bayesian inference regression analysis and statistical
+    modeling
   --------------------------------------------------------------------
 
   Rank #4
-  Title             : Big Data Analytics with Spark
-  Category          : Big Data
-  Similarity Score  : 0.0436
+  Title             : Cloud Computing and AI Services
+  Category          : Cloud Computing
+  Similarity Score  : 0.1337
   Description       :
-    Learn to process and analyze massive datasets using Apache
-    Spark PySpark distributed computing MapReduce and
-    cloud-based big data solutions for enterprise analytics
+    Explore cloud platforms like AWS Google Cloud and Azure for
+    deploying AI machine learning models serverless computing
+    containerization Docker and Kubernetes
   --------------------------------------------------------------------
 
   Rank #5
-  Title             : Data Structures and Algorithms
-  Category          : Programming
-  Similarity Score  : 0.0414
+  Title             : AI Project Management and MLOps
+  Category          : MLOps
+  Similarity Score  : 0.1202
   Description       :
-    Master fundamental data structures like arrays linked lists
-    trees graphs and algorithms including sorting searching
-    dynamic programming and graph traversal for competitive
-    programming
+    Learn to manage end-to-end machine learning projects
+    including data versioning experiment tracking model
+    monitoring CI/CD pipelines and deploying models using MLflow
+    and Docker
   --------------------------------------------------------------------
 ======================================================================
